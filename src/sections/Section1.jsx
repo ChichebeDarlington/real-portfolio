@@ -4,6 +4,7 @@ import {
   AiFillLinkedin,
   AiFillYoutube,
   AiFillFacebook,
+  AiFillGithub,
 } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
@@ -26,7 +27,7 @@ const Section1 = ({ darkMode, setDarkMode }) => {
             </Link>
           </li>
           <li className="section-1-list-item">
-            <Link href="/" className="resume">
+            <Link href="/resume" className="resume">
               Resume
             </Link>
           </li>
@@ -44,14 +45,17 @@ const Section1 = ({ darkMode, setDarkMode }) => {
           get cracking!
         </p>
         <div className="social">
-          <Link>
+          <Link to="https://twitter.com/ChichebeD">
             <AiFillTwitterCircle className="icon" />
           </Link>
-          <Link>
+          <Link to="https://www.linkedin.com/in/chichebe-madu-2096a8242/">
             <AiFillLinkedin className="icon" />
           </Link>
-          <Link>
+          <Link to="https://web.facebook.com/chichebe.darlington">
             <AiFillFacebook className="icon" />
+          </Link>
+          <Link to="https://github.com/ChichebeDarlington">
+            <AiFillGithub className="icon" />
           </Link>
         </div>
         <div className="img-container">

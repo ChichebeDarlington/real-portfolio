@@ -10,9 +10,9 @@ function App() {
   return (
     <div className={` ${darkMode ? "dark" : "main"}`}>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Resume />} />
-        </Routes>
+        {/* <Routes>
+          <Route path="" element={<Resume />} />
+        </Routes> */}
         <Section1 darkMode={darkMode} setDarkMode={setDarkMode} />
         <Section2 darkMode={darkMode} />
         <Section3 darkMode={darkMode} />

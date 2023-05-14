@@ -25,14 +25,16 @@ const Section2 = ({ darkMode }) => {
             Beautiful Designs
           </h3>
           <p className={`${darkMode ? "mode-light" : null}`}>
-            Creating elegant designs suited for your needs following core design
-            theory.
+            Help you create and bring your design website to live web
+            application, with awesome user interface(UI) and user experience(ux)
           </p>
-          <h4 className={`${darkMode && "mode-light"}`}>Design Tools I Use</h4>
-          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Photoshop</p>
-          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Illustrator</p>
+          <h4 className={`${darkMode && "mode-light"}`}>
+            Development/Design Tools That I Use
+          </h4>
+          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Vscode</p>
+          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>HTML</p>
           <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Figma</p>
-          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Indesign</p>
+          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>MERN stack</p>
         </div>
         <div className={`${darkMode ? "center-light" : "center"}`}>
           <img src="/code.png" />
@@ -43,11 +45,13 @@ const Section2 = ({ darkMode }) => {
             Do you have an idea for your next great website? Let's make it a
             reality.
           </p>
-          <h4 className={darkMode && "mode-light"}>Design Tools I Use</h4>
-          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Photoshop</p>
-          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Illustrator</p>
-          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Figma</p>
-          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Indesign</p>
+          <h4 className={darkMode && "mode-light"}>
+            Development/Design Tools That I Use
+          </h4>
+          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Javascript</p>
+          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>CSS</p>
+          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>BOOTSTRAP</p>
+          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>REACT</p>
         </div>
         <div className={`${darkMode ? "center-light" : "center"}`}>
           <img src="/consulting.png" />
@@ -56,11 +60,13 @@ const Section2 = ({ darkMode }) => {
             Are you interested in feedback for your current project? I can give
             you tips and tricks to level it up.
           </p>
-          <h4 className={`${darkMode && "mode-light"}`}>Design Tools I Use</h4>
-          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Photoshop</p>
-          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Illustrator</p>
-          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Figma</p>
-          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Indesign</p>
+          <h4 className={`${darkMode && "mode-light"}`}>
+            Development/Design Tools That I Use
+          </h4>
+          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>EXPRESS</p>
+          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>NODEJS</p>
+          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>MONGODB</p>
+          <p className={`${darkMode ? "mode-light" : "p-gray"}`}>TAILWIND</p>
         </div>
       </div>
     </section>
