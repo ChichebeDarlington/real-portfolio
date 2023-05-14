@@ -28,7 +28,7 @@ const Section2 = ({ darkMode }) => {
             Help you create and bring your design website to live web
             application, with awesome user interface(UI) and user experience(ux)
           </p>
-          <h4 className={`${darkMode && "mode-light"}`}>
+          <h4 className={`${darkMode ? "mode-light" : ""}`}>
             Development/Design Tools That I Use
           </h4>
           <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Vscode</p>
@@ -38,14 +38,14 @@ const Section2 = ({ darkMode }) => {
         </div>
         <div className={`${darkMode ? "center-light" : "center"}`}>
           <img src="/code.png" />
-          <h3 className={`${darkMode && "mode-light"}`}>
+          <h3 className={`${darkMode ? "mode-light" : ""}`}>
             Code your dream project
           </h3>
-          <p className={darkMode && "mode-light"}>
+          <p className={`${darkMode ? "mode-light" : ""}`}>
             Do you have an idea for your next great website? Let's make it a
             reality.
           </p>
-          <h4 className={darkMode && "mode-light"}>
+          <h4 className={`${darkMode ? "mode-light" : ""}`}>
             Development/Design Tools That I Use
           </h4>
           <p className={`${darkMode ? "mode-light" : "p-gray"}`}>Javascript</p>
@@ -56,11 +56,11 @@ const Section2 = ({ darkMode }) => {
         <div className={`${darkMode ? "center-light" : "center"}`}>
           <img src="/consulting.png" />
           <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
-          <p className={`${darkMode ? "mode-light" : null}`}>
+          <p className={`${darkMode ? "mode-light" : ""}`}>
             Are you interested in feedback for your current project? I can give
             you tips and tricks to level it up.
           </p>
-          <h4 className={`${darkMode && "mode-light"}`}>
+          <h4 className={`${darkMode ? "mode-light" : ""}`}>
             Development/Design Tools That I Use
           </h4>
           <p className={`${darkMode ? "mode-light" : "p-gray"}`}>EXPRESS</p>
