@@ -14,8 +14,9 @@ const Section2 = ({ darkMode }) => {
           both business and consumer use.
         </p>
         <p className="">
-          I offer from a wide range of services, including brand design,
-          programming and teaching.
+          I offer a wide range of services, such Ecommerce website, Real Estate
+          website, Blog website, Job Search website, Social App website,
+          Bookking App website, and any kind of web application.
         </p>
       </div>
       <div className="section-2-div-2">

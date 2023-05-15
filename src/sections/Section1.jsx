@@ -41,8 +41,8 @@ const Section1 = ({ darkMode, setDarkMode }) => {
         <p>
           {" "}
           Freelancer providing services for web application development and
-          design content needs. hit me on my social account down below and let's
-          get cracking!
+          design content needs. Hit me on my social account below and let's get
+          cracking!
         </p>
         <div className="social">
           <Link to="https://twitter.com/ChichebeD">

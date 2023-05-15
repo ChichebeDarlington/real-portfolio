@@ -6,14 +6,14 @@ const Section3 = () => {
         <p className="">
           Since the beginning of my journey as a freelance designer and
           developer, I've done remote work for
-          <span className=""> agencies </span>
+          <span className=""> agencies, </span>
           consulted for <span className="">startups </span>
           and collaborated with talanted people to create digital products for
           both business and consumer use.
         </p>
         <p className="">
-          I offer from a wide range of services, including brand design,
-          programming and teaching.
+          I offer a wide range of services, including brand design, programming
+          and teaching.
         </p>
       </div>
       <div className="section-3-div-2">
