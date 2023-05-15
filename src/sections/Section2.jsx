@@ -23,7 +23,7 @@ const Section2 = ({ darkMode }) => {
         <div className={`${darkMode ? "center-light" : "center"}`}>
           <img src="/design.png" />
           <h3 className={`${darkMode ? "mode-light" : ""}`}>
-            Beautiful Designs
+            Beautiful Designs``
           </h3>
           <p className={`${darkMode ? "mode-light" : null}`}>
             Help you create and bring your design website to live web
